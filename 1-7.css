@@ -10,14 +10,16 @@ header{
     background-image:url(img1-7/mv.jpg);
     background-size: cover;
     background-position:bottom;
+    margin: 0;
 }
 
 .header-text{
-    margin: 20px;
+    padding: 20px;
+    color: darkgray;
 }
 
 main{
-    margin:50 auto;
+    margin:20px auto 50px auto;
     width: 840px;
 }
 
@@ -27,18 +29,6 @@ main{
     border-bottom: 1px solid;
 }
 
-.picture1{
-    background-image: url(img1-7/wc-logo.png);
-}
-.picture2{
-    padding-top: 30px;
-    background-image: url(img1-7/wcc-logo.png);
-}
-.picture3{
-    padding-top: 30px;
-    background-image: url(img1-7/wcp-logo.png);
-}
-.picture4{
-    padding-top: 30px;
-    background-image: url(img1-7.wcw-logo.png);
+.picture{
+    margin-top: 30px;
 }
