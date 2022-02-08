@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+i{
+    font-size: 32px;
+}
+
+.body{
+    position: relative;
+}
+
+.position{
+    position: absolute;
+    right: 40px;
+    top: 100px;
+}
