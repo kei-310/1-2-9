@@ -37,20 +37,21 @@ main{
 
 .img{
     height: 150px;
-    background-size: contain;
+    background-size: cover;
+    background-position: bottom;
     width: 280px;
 }
 
 
-.img:first-child{
+.box:nth-child(1) .img{
     background-image: url(img1-9/flow01.png);
 }
 
-.img:nth-child(2){
+.box:nth-child(2) .img{
     background-image: url(img1-9/flow02.png);
 }
 
-.img:last-child{
+.box:nth-child(3) .img{
     background-image: url(img1-9/flow03.png);
 }
 
